@@ -1,0 +1,19 @@
+body {
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+li .btn {
+  margin-left: 5px;
+}
